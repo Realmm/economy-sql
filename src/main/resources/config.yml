@@ -1,0 +1,5 @@
+sql:
+  host: "localhost"
+  database: "economyDatabase"
+  username: ""
+  password: ""

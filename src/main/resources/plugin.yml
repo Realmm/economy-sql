@@ -1,0 +1,6 @@
+main: com.projecki.economy.EconomyPlugin
+name: Economy
+author: Realmm
+description: Simple economy plugin
+version: 1.0
+api-version: 1.18

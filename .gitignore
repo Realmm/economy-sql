@@ -1,0 +1,6 @@
+.idea/
+target/
+*.iml
+*-pom.xml
+.DS_Store
+**/.DS_Store
