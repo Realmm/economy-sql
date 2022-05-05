@@ -28,8 +28,9 @@
 - Once a player logs in, their balance is loaded from the database
 - Updating the players balance does not directly update the database, if the server crashes the players balance
   will not be saved accurately. Players balance is also not saved on shutdown of the plugin. A players balance
-  is only saved when the player logs out, which would likely lead to inaccuracies. 
+  is only saved when the player logs out, which would likely lead to inaccuracies 
 - Considering the database isn't updated directly upon balance update, if attempting to update an offline players 
   balance, it won't save to the database until the player logs in, and when they log in it grabs the current value 
   from the database, disregarding what was set when the player was offline, which is inaccurate due to plugin design 
   as well
+- All plugin 'quirks' are intentional, and can be resolved with relative ease
